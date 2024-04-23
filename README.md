@@ -34,8 +34,7 @@ As i can see from first few bites '50 4b 03 04' i found something interesting in
 After extracting files i see three files, including of one hidden file with xlsx extension, let's investigates the files:
 - utilazing HxD I difine the first file and founf out the format of that - jpeg 
 ![Screenshot 2024-04-23 142336](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/12b9cca6-a57e-4a9f-8e4d-b38d2a940d4c)
-
-
+![Screenshot 2024-04-23 143302](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/c396329d-ac2f-461d-88a3-55df4c6064ca)
 
 
 
