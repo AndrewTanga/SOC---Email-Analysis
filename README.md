@@ -36,6 +36,23 @@ After extracting files i see three files, including of one hidden file with xlsx
 ![Screenshot 2024-04-23 142336](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/12b9cca6-a57e-4a9f-8e4d-b38d2a940d4c)
 ![Screenshot 2024-04-23 143302](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/c396329d-ac2f-461d-88a3-55df4c6064ca)
 
+The same process for second file - pdf.
+
+Now let's check if provided xlsx file is really xlsx.
+
+![Screenshot 2024-04-23 143914](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/31615ba9-43f1-4ef2-8cb9-8b0da0d21a69)
+
+As I can see that is real xlsx file. Not using SquareX app checking safely opening the file.
+Nothing suspicious inside, expept hidden text on the 'Sheet3', found hidden text after clear format:
+![Screenshot 2024-04-23 145146](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/912597ee-c40e-4c6d-bb39-2ab68d2ba8e3)
+![Screenshot 2024-04-23 145209](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/57f632fe-3bd3-4e1a-ac30-12f2adc6c885)
+And the last one is decode the message:
+![Screenshot 2024-04-23 145301](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/dd3921f1-869f-4d6d-95c7-5ba7e87303a9)
+
+
+
+
+
 
 
 
