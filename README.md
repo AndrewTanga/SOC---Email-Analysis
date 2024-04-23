@@ -12,4 +12,5 @@ By analysing this email I see some suspicious indicators:
 - Then i see 'Content-Type': multipart/mixed; boundary=BOUND_600FB98E0DCEE8.49207210' which means how to render the content of email with it bein multipart/mixed (means has multiple formats), and also boundry set for it 'BOND_600', means when to start and stopredndering the content usin the certain format.
 
 Now let's see the content of the coded text, decode it with base64
-![Screenshot 2024-04-23 133555](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/9e8446e7-735d-44f6-a60d-c5d1210eed71)
+
+![Screenshot 2024-04-23 133555](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/39f008a1-b2ab-4014-be37-e7b3dda55f6d)
