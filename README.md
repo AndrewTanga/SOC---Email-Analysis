@@ -15,21 +15,27 @@ Now let's see the content of the coded text, decode it with base64
 
 ![Screenshot 2024-04-23 133555](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/39f008a1-b2ab-4014-be37-e7b3dda55f6d)
 
-After decoding the output I have:
+After decoding the output is:
 
 ![Screenshot 2024-04-23 134028](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/4b3afd34-309d-4257-8bb9-20beb95cd6d3)
 
-Now investigate the next part of the emeil with pdf file, copy content and decode it using base64:
+Now investigate the next part of the email with pdf file, copy content and decode it using base64:
 
 ![Screenshot 2024-04-23 135820](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/28a13518-8ce3-4830-86b2-835a1c0a5f0f)
 
-And as i can see base64 does't work with this content, let's find out what is the format of this file, so convirt content into hexidesimal format for find out the signature of the file:
+And as i can see base64 doesn't work with this content, let's find out what is the format of this file, so convirt content into hexadecimal format for find out the signature of the file:
 
 ![Screenshot 2024-04-23 140103](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/3e757f50-d156-4e6e-9d5a-9c2db9d40607)
 
-As i can see from first few bites '50 4b 03 04' i found something ineresting in here - ZIP  extension. Instead of 'pdf' its ZIP now.
+As i can see from first few bites '50 4b 03 04' i found something interesting in here - ZIP extension. Instead of 'pdf' its ZIP now:
 
 ![Screenshot 2024-04-23 140505](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/b61f2c14-e779-42a1-95bd-320a5db7e0f1)
+
+After extracting files i see three files, including of one hidden file with xlsx extension, let's investigates the files:
+- utilazing HxD I difine the first file and founf out the format of that - jpeg 
+![Screenshot 2024-04-23 142336](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/12b9cca6-a57e-4a9f-8e4d-b38d2a940d4c)
+
+
 
 
 
