@@ -14,3 +14,9 @@ By analysing this email I see some suspicious indicators:
 Now let's see the content of the coded text, decode it with base64
 
 ![Screenshot 2024-04-23 133555](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/39f008a1-b2ab-4014-be37-e7b3dda55f6d)
+
+After decoding the output I have:
+
+![Screenshot 2024-04-23 134028](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/4b3afd34-309d-4257-8bb9-20beb95cd6d3)
+
+
