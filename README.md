@@ -19,4 +19,7 @@ After decoding the output I have:
 
 ![Screenshot 2024-04-23 134028](https://github.com/AndrewTanga/SOC---Email-Analysis/assets/93886645/4b3afd34-309d-4257-8bb9-20beb95cd6d3)
 
+Now investigate this part of emeil with pdf file:
+
+
 
